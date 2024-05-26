@@ -6,7 +6,9 @@ how to install :
     REQUIREMENTS:
     Ensure you have Tor package installed on your system, if not type:
     
-    [ sudo apt install tor ] or [ nala install tor ] (For Debian based distros)
+    sudo apt install tor (For Debian based distros)
+    sudo apt install python3-regex
+    sudo apt install python3-bs4
     
 1: git clone https://github.com/privateboss0/Secure_Tor_Ip_Changer
 
