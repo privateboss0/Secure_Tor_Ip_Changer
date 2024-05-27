@@ -1,6 +1,6 @@
 # Secure_Tor_Ip_Changer 7.6
 
-This secure tool optimizes and secures the change of Onion network IP address every 67seconds to access the Tor network. It is built on top of the Tor project. You can read about it here: https://www.torproject.org/about/history/
+This secure tool optimizes and secures the change of Onion network IP address every 67seconds to access the Tor network. It is built on top of the Tor project. You can read about it here: https://www.torproject.org/about/history/ . Use Responsibly
 
     REQUIREMENTS:
     Install these required packages for the application to run:
