@@ -1,6 +1,7 @@
 import os
 choice = input('[+] to install press (Y) to uninstall press (N) >> ')
 run = os.system
+
 if str(choice) =='Y' or str(choice)=='y':
 
     run('chmod 777 secureautoTOR.py')
@@ -11,7 +12,9 @@ if str(choice) =='Y' or str(choice)=='y':
     with open('/usr/bin/aut','w')as file:
         file.write(cmnd)
     run('chmod +x /usr/bin/aut & chmod +x /usr/share/aut/secureautoTOR.py')
-    print('''\n\ncongratulations! Secure Tor Ip Changer has been sucessfully installed \to start type \x1b[6;30;42msudo aut\x1b[0m in terminal ''')
+    print('''\n\nCongratulations!. Secure Tor Ip Changer has been sucessfully installed ''')
+    print("\nTo start the application type: ***sudo aut*** in terminal ")
+    
 if str(choice)=='N' or str(choice)=='n':
     run('rm -r /usr/share/aut ')
     run('rm /usr/bin/aut ')
