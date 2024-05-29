@@ -13,7 +13,7 @@ How to install :
 
 1: From your home directory type [ git clone https://github.com/privateboss0/Secure_Tor_Ip_Changer ]
 
-2: cd Secure_Tor_Ip_Changer
+2: Go into the directory using [ cd Secure_Tor_Ip_Changer ]
 
 3: type [ sudo python3 install.py ] and follow the prompt [ 'y' for install or 'n' for uninstall ] 
 
