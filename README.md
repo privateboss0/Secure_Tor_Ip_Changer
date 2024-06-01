@@ -15,9 +15,9 @@ How to install :
 
 2: Go into the directory using [ cd Secure_Tor_Ip_Changer ]
 
-3: type [ sudo python3 install.py ] and follow the prompt [ 'y' for install or 'n' for uninstall ] 
+3: type [ sudo python3 ifa_install.py ] and follow the prompt [ 'y' for install or 'n' for uninstall ] 
 
-4: In the cli terminal type [ sudo aut ] from any directory in the terminal to start the application
+4: In the cli terminal type [ sudo ifa ] from any directory in the terminal to start the application
 
 5: Type the interval to change your Tor IP in seconds to [ 67 ] for stable internet. The lower the seconds the more unstable the connection due to Tor rebulding the secure connection to frequently
 
