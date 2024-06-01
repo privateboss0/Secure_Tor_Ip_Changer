@@ -11,7 +11,7 @@ This secure tool optimizes and secures the change of Onion network IP address ev
 
 How to install :
 
-    Depending on your system permission setting, you can use home/root
+    Depending on your system permission setting, you can use home/root.
 1: From your ( home/root ) directory type [ git clone https://github.com/privateboss0/Secure_Tor_Ip_Changer ]
 
 2: Go into the directory from ( home/root ) using [ cd Secure_Tor_Ip_Changer ]
