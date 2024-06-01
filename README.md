@@ -11,9 +11,10 @@ This secure tool optimizes and secures the change of Onion network IP address ev
 
 How to install :
 
-1: From your home directory type [ git clone https://github.com/privateboss0/Secure_Tor_Ip_Changer ]
+    Depending on your system permission setting, you can use home/root
+1: From your ( home/root ) directory type [ git clone https://github.com/privateboss0/Secure_Tor_Ip_Changer ]
 
-2: Go into the directory using [ cd Secure_Tor_Ip_Changer ]
+2: Go into the directory from ( home/root ) using [ cd Secure_Tor_Ip_Changer ]
 
 3: type [ sudo python3 ifa_install.py ] and follow the prompt [ 'y' for install or 'n' for uninstall ] 
 
