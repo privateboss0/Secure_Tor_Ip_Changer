@@ -4,7 +4,7 @@ run = os.system
 
 if str(choice) =='Y' or str(choice)=='y':
 
-    run('chmod 777 secureautoTOR.py')
+    run('chmod 700 secureautoTOR.py')
     run('mkdir /usr/share/aut')
     run('cp secureautoTOR.py /usr/share/aut/secureautoTOR.py')
 
