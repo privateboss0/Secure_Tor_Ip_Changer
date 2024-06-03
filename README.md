@@ -24,6 +24,6 @@ How to install :
 
 6: Type how many times you want the IP to change. [ 0 for infinte IP change ]
 
-7: Go to your Tor Browser/PC and change the manual proxy to [ 127.0.0.1:9050 ] from the network settings
+7: Go to your Tor Browser/Firefox Browser and change the manual proxy to [ 127.0.0.1:9050 ] and SOCKSV5 from the network settings
 
 8: For Firefox over Tor users, ensure you check the " Proxy DNS when using SOCKS v5 " box
