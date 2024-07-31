@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #This is built on top of the Tor network to allow
 #for a private, secure, and continous random allocation of tor ip addresses to 
 #facilitate an anonymous browsing experience on the internet from the network level
@@ -43,10 +42,9 @@ def tor_ip():
     try:
         response = requests.get(url,proxies=dict(https='socks5://127.0.0.1:9050'))
         if response.status_code == 200:
-            # Parse the HTML using BeautifulSoup
+            
             soup = BeautifulSoup(response.text, 'html.parser')
-
-            # Find the element containing the "Your IP address appears to be" text
+            
             ip_element = soup.find(string=re.compile(r'Your IP address appears to be'))
 
             if ip_element:
