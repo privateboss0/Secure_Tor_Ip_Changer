@@ -1,6 +1,6 @@
 # Secure_Tor_Ip_Changer 7.6
 
-This secure tool optimizes and secures the automated change of Onion IP address every 67seconds to access the Tor network. It is built on top of the Tor project. You can read about it here: https://www.torproject.org/about/history/ . Use RESPONSIBLY and I DO NOT take any responsibility for any misuse of this tool in the TOR network
+This secure tool optimizes and secures the automated change of Onion IP address preferably every 67seconds to access the Tor network. It is built on top of the Tor project. You can read about it here: https://www.torproject.org/about/history/ . Use RESPONSIBLY and I DO NOT take any responsibility for any misuse of this tool in the TOR network
 
     REQUIREMENTS:
     Install these required packages for the application to run:
@@ -20,7 +20,7 @@ How to install :
 
 4: In the cli terminal type [ sudo ifa ] from any directory in the terminal to start the application
 
-5: Type the interval to change your Tor IP in seconds to [ 67 ] for stable internet. The lower the seconds the more unstable the connection due to Tor rebulding the secure connection to frequently
+5: Type the interval to change your Tor IP in seconds to minimum of[ 67 ] for stable internet. The lower the seconds the more unstable the connection due to Tor rebulding the secure connection to frequently
 
 6: Type how many times you want the IP to change. [ 0 for infinte IP change ]
 
