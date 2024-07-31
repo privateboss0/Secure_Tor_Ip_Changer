@@ -63,7 +63,7 @@ def tor_ip_changer():
     if tor_ip_text:
         print(f'[+] You are connected to Tor!. New Tor IP is: {tor_ip_text}')
     else:
-        print('[+] You are likely still connected to Tor but failed to fetch new Tor IP')
+        print('[+] You might be disconnected. Check your connection as I failed to fetch a new Tor IP')
 
 
 print('''\033[1;32;31m \n
@@ -94,7 +94,7 @@ if int(lin) ==int(0):
                         tor_ip_changer()
                 except KeyboardInterrupt:
 
-                        print('\nauto tor is closed ')
+                        print('\Ifa Tor session has ended ')
                         quit()
 
 else:
