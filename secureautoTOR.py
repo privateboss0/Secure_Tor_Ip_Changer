@@ -48,7 +48,6 @@ def tor_ip():
             ip_element = soup.find(string=re.compile(r'Your IP address appears to be'))
 
             if ip_element:
-                # Extract the IP address from the element
                 ip_address = ip_element.find_next('strong').text.strip()
                 return ip_address
             else:
