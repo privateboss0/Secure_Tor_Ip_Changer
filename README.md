@@ -20,7 +20,7 @@ How to install :
 
 4: In the cli terminal type [ sudo ifa ] from any directory in the terminal to start the application
 
-5: Type the interval to change your Tor IP in seconds to minimum of[ 67 ] for stable internet. The lower the seconds the more unstable the connection due to Tor rebulding the secure connection to frequently
+5: Type the interval to change your Tor IP in seconds to minimum of[ 67 ] for stable internet. The lower the seconds the more unstable the connection due to Tor rebulding the secure connection too frequently
 
 6: Type how many times you want the IP to change. [ 0 for infinte IP change ]
 
