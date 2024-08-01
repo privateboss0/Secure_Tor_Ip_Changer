@@ -94,7 +94,7 @@ if int(lin) ==int(0):
                         tor_ip_changer()
                 except KeyboardInterrupt:
 
-                        print('\Ifa Tor session has ended ')
+                        print(' Ifa Tor session has ended ')
                         quit()
 
 else:
