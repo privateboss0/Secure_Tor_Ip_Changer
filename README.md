@@ -27,3 +27,5 @@ How to install :
 7: Go to your Tor Browser/Firefox Browser and change the manual proxy to [ 127.0.0.1:9050 ] and SOCKSV5 from the network settings
 
 8: For Firefox over Tor users, ensure you check the " Proxy DNS when using SOCKS v5 " box
+
+This secure tor ip changer can be combined with a hardened firefox configuration using this link: https://github.com/privateboss0/Hardened_Firefox_Forte
